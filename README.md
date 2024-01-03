@@ -1,2 +1,3 @@
 # Drive Health Monitor
  Powershell script to check drive health.
+This script is designed to check the health status of physical disks on a Windows machine. If any of the disks have an unhealthy or warning status, the script sends an email alert to the specified recipient.  Modify it for one-time use if needed, or pair it with Task Scheduler, Group Policy, Rundeck, etc for repeating checks.  SMTP server needed and adjust firewall accordingly.
